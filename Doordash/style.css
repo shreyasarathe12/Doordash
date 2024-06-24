@@ -1,0 +1,229 @@
+* {
+    font-family: s;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container { 
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.flex {
+    display:flex ;
+}
+
+
+ 
+ .containerf {
+    width: auto;
+
+    background-color: black;
+    color:white ;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin:0 auto;
+    padding: 0px 120px 0px 80px;
+   
+
+ }
+ .footer-1 h2 {
+margin-bottom: 2rem;
+font-family: verdana;
+font-size: 13px;
+ }
+ 
+ .footer-1 h3 {
+margin-bottom: 2rem;
+font-family: Verdana ;
+font-size:13px ;
+ }
+
+ .footer-1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    
+ }
+ 
+ .footer-a {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    margin-left: 2rem;
+    margin-top: 6rem;
+ }
+
+ .footer-b{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-top: 6rem;
+    
+ }
+
+ 
+.header { 
+    background-image:url("top-background.jpg") ;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    height: 36rem;
+    margin:0;
+    padding: 0;
+    
+}
+
+.text-center {
+    text-align:center;
+    
+    
+   
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+    
+}
+
+
+.text-white {
+    color: white;
+    
+
+}
+
+.btn {
+    padding: 12px 12px;
+    border-radius: 20px;
+    margin:14px;
+}
+
+.email {
+     margin: 12px;
+     
+     
+    
+}
+
+.underline {
+    /* text-decoration:underline; */
+    font-size: 16px;
+  
+  
+}
+.text-white.underline{
+    color: white;
+    font-size: 16px;
+    padding: 12px 12px;
+    border-radius: 20px;
+    margin: 14px;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border: 2px solid gray;
+    text-align: center;
+}
+
+
+.bg-white {
+    background-color: #FFFFFF;
+    color: rgb(17, 17, 17);
+}
+
+.bg-primary {
+    background-color: red;
+}
+
+.nav {
+    padding-top: 25px;
+
+}
+
+a {
+    color:white ;
+    text-decoration: none;
+}
+
+
+
+h2 {font-size: 40px;
+}
+
+p {
+    font-size: 16px ;
+    font-family: Verdana;
+ }
+
+ .food {padding: 0px 70px 0px 30px;
+    padding-right: 1rem;
+ }
+
+ .food2 { padding-right: 1rem;
+    padding: 0px 20px 0px 30px;
+    
+
+ }
+
+#delivery{
+    border-radius: 50px;
+    padding: 15px;
+    width: 40%;
+}
+
+.sech {
+    background-color:rgb(252, 239, 239);
+  
+}
+
+
+h1 { 
+    
+    text-align: center;
+    color:white ;
+    font-size: 40px;
+    margin-top:104px ;
+
+}
+
+.image { 
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.rider {
+    text-align: center;
+}
+
+.rider img{width:150px ;
+          height: 200px;
+}
+
+h1.rider { 
+    color: black;
+    font-size:30px ;
+}
+.rider a{ 
+    color:red ;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+
+
+
